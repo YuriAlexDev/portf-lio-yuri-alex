@@ -1,23 +1,15 @@
 {
-	"files.exclude": {
-		"**/.git": true,
-		"**/.svn": true,
-		"**/.hg": true,
-		"**/CVS": true,
-		"**/.DS_Store": true,
-		"**/Thumbs.db": true
+	"name": "portf-lio-yuri-alex",
+	"version": "1.0.0",
+	"scripts": {
+	  "dev": "svelte-kit dev",
+	  "build": "svelte-kit build",
+	  "start": "svelte-kit start"
 	},
-	"hide-files.files": [],
-	"cSpell.words": [
-		"Audiphy",
-		"Azur",
-		"developping",
-		"Dwida",
-		"Dwidder",
-		"garous",
-		"hoverable",
-		"Thierclieux",
-		"todos",
-		"Wroddit"
-	]
-}
+	"devDependencies": {
+	  "@sveltejs/adapter-static": "next",
+	  "@sveltejs/kit": "next",
+	  "svelte": "^3.38.3"
+	}
+  }
+  
